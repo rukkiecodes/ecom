@@ -40,6 +40,7 @@ app.use('/auth', [
   require('./routes/auth/signup'),
   require('./routes/auth/signin'),
   require('./routes/auth/getProfile'),
+  require('./routes/auth/updateProfile'),
 ])
 
 
