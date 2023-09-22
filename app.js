@@ -41,6 +41,7 @@ app.use('/auth', [
   require('./routes/auth/signin'),
   require('./routes/auth/getProfile'),
   require('./routes/auth/updateProfile'),
+  require('./routes/auth/updateAvatar'),
 ])
 
 
