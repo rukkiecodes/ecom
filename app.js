@@ -44,6 +44,11 @@ app.use('/auth', [
   require('./routes/auth/updateAvatar'),
 ])
 
+app.use('/trade', [
+  require('./routes/trade/addStock'),
+  require('./routes/trade/getGoods'),
+])
+
 
 app.get('/', (req, res) => {
   res.send('Welcome to blue zone. \n everything looks good.\n the  server is up')

@@ -1,8 +1,6 @@
 const router = require("express").Router()
-const fs = require("fs")
 const cloudinary = require("../../middleware/cloud")
 const upload = require("../../middleware/multer")
-const checkAuth = require("../../middleware/auth")
 
 const User = require("../../models/user")
 
